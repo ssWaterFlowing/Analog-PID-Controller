@@ -4704,7 +4704,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TL084CN:DIP794W45P254L1969H508Q14"
 			(at 113.03 58.42 0)
 			(effects
 				(font
@@ -5472,7 +5472,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TL084CN:DIP794W45P254L1969H508Q14"
 			(at 143.51 45.72 0)
 			(effects
 				(font
@@ -5845,7 +5845,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TL084CN:DIP794W45P254L1969H508Q14"
 			(at 113.03 91.44 0)
 			(effects
 				(font
@@ -6086,7 +6086,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TL084CN:DIP794W45P254L1969H508Q14"
 			(at 83.82 106.68 0)
 			(effects
 				(font
@@ -6189,7 +6189,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PV37W104C01B00:TRIM_PV37W104C01B00"
 			(at 109.22 17.78 0)
 			(effects
 				(font
@@ -7002,7 +7002,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TL082CP:DIP794W45P254L959H508Q8"
 			(at 46.99 66.04 0)
 			(effects
 				(font
@@ -7636,7 +7636,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TL084CN:DIP794W45P254L1969H508Q14"
 			(at 111.76 26.67 0)
 			(effects
 				(font
@@ -7742,7 +7742,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TL082CP:DIP794W45P254L959H508Q8"
 			(at 55.88 101.6 0)
 			(effects
 				(font
@@ -7960,7 +7960,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TL082CP:DIP794W45P254L959H508Q8"
 			(at 50.8 31.75 0)
 			(effects
 				(font
@@ -8045,7 +8045,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PV37W104C01B00:TRIM_PV37W104C01B00"
 			(at 92.71 59.69 0)
 			(effects
 				(font
@@ -8319,7 +8319,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PV37W104C01B00:TRIM_PV37W104C01B00"
 			(at 106.68 80.01 0)
 			(effects
 				(font
