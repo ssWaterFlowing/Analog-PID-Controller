@@ -288,7 +288,7 @@
 		(uuid "0a478f97-b6af-45ad-a8c9-fbcc2f97ccb9")
 		(at 81.29 59.5 -90)
 		(property "Reference" "RV1"
-			(at 0 0 90)
+			(at -1.08 5.09 90)
 			(layer "F.SilkS")
 			(uuid "8c65ea1d-c791-4a37-98f7-68e049cd71ea")
 			(effects
@@ -1737,7 +1737,7 @@
 			)
 		)
 		(property "Value" "TP_PID_error_input"
-			(at 8.47 1.25 0)
+			(at 9.66 2.84 0)
 			(layer "F.Fab")
 			(uuid "6fb8249d-a408-4fbe-b185-dabf5eb2ae50")
 			(effects
@@ -2736,7 +2736,7 @@
 		(property "Reference" "Q1"
 			(at -0.264 -3.534 90)
 			(layer "F.SilkS")
-			(uuid "b34d69bc-be49-4917-a7cc-5fbcaedd4fd9")
+			(uuid "ca77a210-19cb-490a-8538-12d183eeb9e2")
 			(effects
 				(font
 					(size 1 1)
@@ -2747,7 +2747,7 @@
 		(property "Value" "Q_NPN"
 			(at 0 2.5 90)
 			(layer "F.Fab")
-			(uuid "a9ab7f6d-cf14-44cc-8ed1-3a636d47fcd6")
+			(uuid "1c2c7067-18d1-4830-90bd-3a60d94e2929")
 			(effects
 				(font
 					(size 1 1)
@@ -2759,7 +2759,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8caab94b-d7a0-486b-b45e-e9a8ab29633c")
+			(uuid "27aaec53-b3b3-4fbe-9532-20ac9884a13d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2771,7 +2771,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "541f6b48-076c-46bb-9382-c78678609f14")
+			(uuid "30f393a7-9669-47a6-a721-83b3228c6205")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3302,7 +3302,7 @@
 		(descr "C, Disc series, Radial, pin pitch=2.50mm, diameter*width=3.8*2.6mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 2.50mm diameter 3.8mm width 2.6mm Capacitor")
 		(property "Reference" "C1"
-			(at 1.25 0 0)
+			(at -1.57 -1.86 0)
 			(layer "F.SilkS")
 			(uuid "17ee101b-0bd9-4db2-9e32-e134a8ce8130")
 			(effects
@@ -3485,9 +3485,9 @@
 		(descr "C, Disc series, Radial, pin pitch=2.50mm, diameter*width=3.8*2.6mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 2.50mm diameter 3.8mm width 2.6mm Capacitor")
 		(property "Reference" "C2"
-			(at 1.25 0 0)
+			(at -1.57 -2.44 0)
 			(layer "F.SilkS")
-			(uuid "3742aff8-ba82-4c4a-8f67-20ca498f508d")
+			(uuid "cfc9efa0-3dfa-417a-8cb8-ed22e08efe24")
 			(effects
 				(font
 					(size 1 1)
@@ -3498,7 +3498,7 @@
 		(property "Value" "0.1u"
 			(at 1.25 -2 0)
 			(layer "F.Fab")
-			(uuid "295c533d-798b-427e-8b90-7323a41f7ab5")
+			(uuid "4745cd1f-ccba-4c24-88ee-ce94cc3650fa")
 			(effects
 				(font
 					(size 1 1)
@@ -3510,7 +3510,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8c1c8a09-4615-4a79-a6af-93e2d79eabe7")
+			(uuid "9c499dd2-ba1e-4663-9af0-8ef4a1c70fcf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3522,7 +3522,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "570d1a03-244e-4e8f-a1e8-328ae6ab312d")
+			(uuid "f1d74833-5962-4a30-b5cb-58f4f43b31ca")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3668,7 +3668,7 @@
 		(descr "Keystone THM Multipurpose Test Point 5010-5014, http://www.keyelco.com/product-pdf.cfm?p=1319")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP3"
-			(at 0 0 0)
+			(at 3.58 0 0)
 			(layer "F.SilkS")
 			(uuid "e1c4eebd-eff5-4b40-8346-39eb2ffd7d75")
 			(effects
@@ -5501,13 +5501,13 @@
 	(footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
 		(layer "F.Cu")
 		(uuid "82480040-fe20-43d4-873d-0c80091fbbf9")
-		(at 141 27)
+		(at 142.24 30.48)
 		(descr "Keystone THM Multipurpose Test Point 5010-5014, http://www.keyelco.com/product-pdf.cfm?p=1319")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP12"
 			(at 0 -2.75 0)
 			(layer "F.SilkS")
-			(uuid "8d0f98ee-5d3e-4d5b-b6b3-2e937fb0ee2d")
+			(uuid "5a17fe8f-5ae3-40c8-a4e1-37fcde23144b")
 			(effects
 				(font
 					(size 1 1)
@@ -5516,9 +5516,9 @@
 			)
 		)
 		(property "Value" "TP_BJT_Base"
-			(at 0 0 0)
+			(at -5.08 0 90)
 			(layer "F.Fab")
-			(uuid "46afcc99-7102-4a27-8607-212b6ed15de1")
+			(uuid "61a57f81-78d1-4b72-9938-4b554c9100d6")
 			(effects
 				(font
 					(size 1 1)
@@ -5531,7 +5531,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e36dcd26-c2ac-44ea-856a-ba52c179de08")
+			(uuid "c57cc8eb-6c0d-44e2-b345-6fb7492d5faf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5544,7 +5544,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2f24295c-545a-41a7-b245-98bc18db2ca5")
+			(uuid "57e1fcfa-360c-450b-ad18-30a0256a39e8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5813,11 +5813,11 @@
 	(footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
 		(layer "F.Cu")
 		(uuid "8e690ad7-e91e-41f9-851f-07fa339c986e")
-		(at 104.5 20.5)
+		(at 96.52 20.32)
 		(descr "Keystone THM Multipurpose Test Point 5010-5014, http://www.keyelco.com/product-pdf.cfm?p=1319")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP6"
-			(at 0 -2.75 0)
+			(at 2.18 2.36 0)
 			(layer "F.SilkS")
 			(uuid "4a27aaf7-02a8-4464-a111-a47e0ea69afc")
 			(effects
@@ -5828,7 +5828,7 @@
 			)
 		)
 		(property "Value" "TP_P_Vn_amp"
-			(at 0 2.75 0)
+			(at -2.9 -2.72 180)
 			(layer "F.Fab")
 			(uuid "34f9fb9b-75ef-4dfc-9b85-c7a77900321f")
 			(effects
@@ -8004,13 +8004,13 @@
 	(footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
 		(layer "F.Cu")
 		(uuid "e4c77056-e1b0-488a-ba76-1a992bfc7aec")
-		(at 129.56 21)
+		(at 119.38 25.4)
 		(descr "Keystone THM Multipurpose Test Point 5010-5014, http://www.keyelco.com/product-pdf.cfm?p=1319")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP8"
-			(at 0 -2.75 0)
+			(at -5.08 -2.54 0)
 			(layer "F.SilkS")
-			(uuid "d3097d9a-6d6f-48ab-9972-6a7e267527a0")
+			(uuid "8807b139-139e-44b5-807b-ed704077e38b")
 			(effects
 				(font
 					(size 1 1)
@@ -8019,9 +8019,9 @@
 			)
 		)
 		(property "Value" "TP_D_Vn_amp"
-			(at 8.47 1.25 0)
+			(at 7.62 0 0)
 			(layer "F.Fab")
-			(uuid "28624d41-5f91-48bd-acf6-fd9477466ee2")
+			(uuid "4a39378b-117d-479e-9060-2ea51b1ad490")
 			(effects
 				(font
 					(size 1 1)
@@ -8034,7 +8034,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9016341a-d1f0-4fdb-bfe1-4e22a00bd19c")
+			(uuid "a3e25bc6-57d8-4cb8-903c-76932d4aa7f1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8047,7 +8047,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ac4dacf1-bcbc-418f-80ca-7a1fff0e0783")
+			(uuid "e8162512-6e48-43c2-a1e2-b8e7c2a97957")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9185,11 +9185,11 @@
 	(footprint "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
 		(layer "F.Cu")
 		(uuid "f69eb471-0de2-4857-9fe4-1c6208624ee2")
-		(at 113.5 20)
+		(at 106.68 20.32)
 		(descr "Keystone THM Multipurpose Test Point 5010-5014, http://www.keyelco.com/product-pdf.cfm?p=1319")
 		(tags "Through Hole Mount Test Points")
 		(property "Reference" "TP10"
-			(at 0 -2.75 0)
+			(at 3.34 2.86 0)
 			(layer "F.SilkS")
 			(uuid "e8f2e4b3-7b55-482d-9083-ed0e12e94116")
 			(effects
@@ -9200,7 +9200,7 @@
 			)
 		)
 		(property "Value" "TP_Error_output"
-			(at 0 2.75 0)
+			(at 0.8 -2.22 0)
 			(layer "F.Fab")
 			(uuid "3269174c-0ac3-400e-947e-5c8c6a2207c2")
 			(effects
@@ -9678,6 +9678,17 @@
 		)
 	)
 	(gr_rect
+		(start 121.92 16.03)
+		(end 144.78 23.65)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "97be0ee3-3b09-48eb-b2bb-04f96d69f49c")
+	)
+	(gr_rect
 		(start 31.5 15.5)
 		(end 145 71)
 		(stroke
@@ -9687,6 +9698,42 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "1730352e-2b12-4550-a798-7e7cd6b47c5f")
+	)
+	(gr_text "UT ECE - 03/07/2026"
+		(at 124.46 22.86 0)
+		(layer "F.SilkS")
+		(uuid "16df3b70-b4bf-495e-a271-4256dbdc9368")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Analog PID Controller"
+		(at 124.46 20.32 0)
+		(layer "F.SilkS")
+		(uuid "1d3e533e-c0eb-49ab-b07c-6520aea61e6c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Devansh Joshi, Suren Shirani"
+		(at 121.92 17.78 0)
+		(layer "F.SilkS")
+		(uuid "9294d15a-e24c-4b45-a871-6815fa22f80f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
 	)
 	(segment
 		(start 141 62)
@@ -10329,6 +10376,14 @@
 		(uuid "d14dafc6-ff6d-4a32-b074-33b9e2bee35f")
 	)
 	(segment
+		(start 121.92 27.94)
+		(end 119.38 25.4)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 3)
+		(uuid "0aa9f68f-d973-42d4-b0c2-9b42791f0271")
+	)
+	(segment
 		(start 124.411 53.62605)
 		(end 124.411 52.04395)
 		(width 0.2)
@@ -10353,28 +10408,28 @@
 		(uuid "57b79c70-1717-41a1-bddd-086959eed32a")
 	)
 	(segment
-		(start 110.787097 39.749953)
-		(end 110.410047 39.749953)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 3)
-		(uuid "63183b39-6b6e-4d2d-87d9-7398c3749fbc")
-	)
-	(segment
-		(start 129.56 20.97705)
-		(end 110.787097 39.749953)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 3)
-		(uuid "7f03ceac-adea-41a8-812c-047665c541dd")
-	)
-	(segment
 		(start 121.911 51.399)
 		(end 120.81 52.5)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 3)
 		(uuid "81ab842e-23c8-4d52-a740-379c12ca7336")
+	)
+	(segment
+		(start 110.929225 39.609238)
+		(end 121.92 28.618463)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 3)
+		(uuid "8c07fd47-6e97-4954-9f1b-18c7cf35e401")
+	)
+	(segment
+		(start 121.92 28.618463)
+		(end 121.92 27.94)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 3)
+		(uuid "924fcb5c-10aa-4c0a-8c59-70150f046386")
 	)
 	(segment
 		(start 120.81 52.5)
@@ -10423,6 +10478,14 @@
 		(layer "F.Cu")
 		(net 3)
 		(uuid "c4ac3b58-f713-44c7-9165-52062822c169")
+	)
+	(segment
+		(start 110.550762 39.609238)
+		(end 110.929225 39.609238)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 3)
+		(uuid "f94b0749-7682-4eb6-9d0d-edc4d2ede755")
 	)
 	(via
 		(at 110.550762 39.609238)
@@ -11625,14 +11688,6 @@
 		(uuid "fe1eb328-c244-4e22-b8f4-b8288c5e40d8")
 	)
 	(segment
-		(start 104.5 27.44)
-		(end 104.5 20.5)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 17)
-		(uuid "0131533e-65d7-43fb-933d-1cb70723ef11")
-	)
-	(segment
 		(start 89.10395 37.521)
 		(end 88.306 36.72305)
 		(width 0.2)
@@ -11657,12 +11712,12 @@
 		(uuid "511f95a9-0936-423a-ba05-b592f5896c5c")
 	)
 	(segment
-		(start 104.56 27.5)
-		(end 104.5 27.44)
+		(start 102.446 29.614)
+		(end 101.56 30.5)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 17)
-		(uuid "63a0737c-b130-415b-94a8-9010dd4ca159")
+		(uuid "8ebd65a3-3cb5-49e5-b879-aeb68168949c")
 	)
 	(segment
 		(start 97.03705 30.5)
@@ -11679,6 +11734,14 @@
 		(layer "F.Cu")
 		(net 17)
 		(uuid "9c9ccd9b-eac8-49b2-aa3e-b282c750a7fe")
+	)
+	(segment
+		(start 96.52 20.32)
+		(end 102.446 26.246)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 17)
+		(uuid "a0870fbc-8bf7-4882-a488-8fce6eb392c7")
 	)
 	(segment
 		(start 90.01605 37.521)
@@ -11705,12 +11768,12 @@
 		(uuid "d06908da-6355-4451-95b7-26fd11b56c4f")
 	)
 	(segment
-		(start 101.56 30.5)
-		(end 104.56 27.5)
+		(start 102.446 26.246)
+		(end 102.446 29.614)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 17)
-		(uuid "ff02243f-2f09-49d6-b736-5282412dc665")
+		(uuid "f8014d86-f09d-48e6-b405-964fadd21c41")
 	)
 	(segment
 		(start 95.06 51.42)
@@ -12209,6 +12272,14 @@
 		(uuid "474da2c9-0ec2-4b84-a45b-92bfa5203574")
 	)
 	(segment
+		(start 106.68 20.32)
+		(end 106.68 25.14)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 21)
+		(uuid "4cf1cf9b-2018-4dbf-bc78-5c3cfb51c7e1")
+	)
+	(segment
 		(start 121.06 33.92)
 		(end 117.58 33.92)
 		(width 0.2)
@@ -12217,20 +12288,12 @@
 		(uuid "5444c2f7-56f8-41a5-b1ec-cd8db12ceb0a")
 	)
 	(segment
-		(start 113.56 23.9)
-		(end 113.5 23.84)
+		(start 106.68 25.14)
+		(end 109.5 27.96)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 21)
-		(uuid "65db3d6e-985e-4ba2-8475-095c7f223282")
-	)
-	(segment
-		(start 113.5 23.84)
-		(end 113.5 20)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 21)
-		(uuid "6690b4f5-aab1-4db4-9d69-9b834a122e2f")
+		(uuid "601f6204-b8b2-440d-b45a-b77dfddfbdb6")
 	)
 	(segment
 		(start 117.58 33.92)
@@ -12263,14 +12326,6 @@
 		(layer "F.Cu")
 		(net 21)
 		(uuid "e3b6603a-2022-4bef-ad8b-805d34ca8202")
-	)
-	(segment
-		(start 113.56 23.9)
-		(end 109.5 27.96)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 21)
-		(uuid "f0a41f44-6054-4b29-9a8d-352a8fb92bf9")
 	)
 	(segment
 		(start 111 28.9)
@@ -12345,20 +12400,12 @@
 		(uuid "e09ee510-64f7-48ac-a905-21d62178bf82")
 	)
 	(segment
-		(start 142 28)
-		(end 141 27)
+		(start 142.24 36.32)
+		(end 140.56 38)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 22)
-		(uuid "20512744-98c0-40c4-b559-701ed88fbe06")
-	)
-	(segment
-		(start 142 36.56)
-		(end 142 28)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 22)
-		(uuid "2775af7c-b3a3-4565-acec-ae337157abe5")
+		(uuid "0ebc0e29-078e-4056-8900-7382865f0383")
 	)
 	(segment
 		(start 122.161 42.979)
@@ -12367,6 +12414,14 @@
 		(layer "F.Cu")
 		(net 22)
 		(uuid "3d44618a-151e-4f05-a30e-d67e33f82ad1")
+	)
+	(segment
+		(start 142.24 30.48)
+		(end 142.24 36.32)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 22)
+		(uuid "9e227838-9525-4eab-8058-68e81868cda4")
 	)
 	(segment
 		(start 130.959 42.979)
@@ -12391,14 +12446,6 @@
 		(layer "F.Cu")
 		(net 22)
 		(uuid "c15070d7-2c03-4194-aec2-7d55a892b690")
-	)
-	(segment
-		(start 140.56 38)
-		(end 142 36.56)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 22)
-		(uuid "dd148272-b38c-46fe-b2ff-ea417aa15860")
 	)
 	(segment
 		(start 140.56 38)
