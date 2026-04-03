@@ -100,5 +100,3 @@ All results are observed directly from hardware behavior, not simulation alone.
 
 ## Final Note  
 This project focuses on understanding control systems at their most fundamental level—through real signals, real components, and real-world behavior. It demonstrates how abstract mathematical models translate directly into physical systems, where every design choice has a measurable impact.
-
-## Repository Structure  
