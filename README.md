@@ -1,7 +1,7 @@
 # Analog PID Controller  
 
 ## Overview  
-This project is a **fully analog PID (Proportional–Integral–Derivative) controller** designed, implemented, and tested entirely in hardware. The system takes an input error signal and produces a corrected control output in real time using only analog circuitry—no software, no microcontrollers, just pure circuit behavior.
+This project is a **fully analog PID (Proportional–Integral–Derivative) controller** designed, implemented, and tested entirely in hardware. The system takes an input error signal and produces a corrected control output in real time using only analog circuitry - no software, no microcontrollers, just pure circuit behavior.
 
 The purpose of this project is to bridge control theory with real-world electronics by physically realizing how systems respond to error, time, and change through carefully designed circuits.
 
