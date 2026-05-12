@@ -164,7 +164,7 @@ Analog-PID-Controller/
 
 ## Authors
 
-**Devansh Joshi** — [GitHub](https://github.com/DJdaGOAT1)
+**Devansh Joshi** — [GitHub](https://github.com/DJdaGOAT1) \n
 **Suren Shirani** — [GitHub](https://github.com/ssWaterFlowing)
 
 ## License
