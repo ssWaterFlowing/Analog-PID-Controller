@@ -7,7 +7,7 @@ A **fully analog PID (Proportional-Integral-Derivative) controller** that regula
 
 Designed as an independent project to physically realize classical control theory in hardware, where gain is set by resistor ratios, time constants by RC products, and stability by circuit topology.
 
-**Authors:** Devansh Joshi and Suren Shirani
+**Authors:** Suren Shirani and Devansh Joshi
 
 ## System Architecture
 
