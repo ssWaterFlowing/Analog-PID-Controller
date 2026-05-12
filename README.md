@@ -3,7 +3,7 @@
 
 ## Project Overview
 
-A **fully analog PID (Proportional-Integral-Derivative) controller** that regulates LED brightness using only op-amp circuits, passive components, and a BJT output driver — no microcontroller, no software, no digital processing. The system senses LED current, computes the error against a setpoint, and drives a corrective output through three parallel analog compensation paths (P, I, D) summed into a single control signal.
+A **fully analog PID (Proportional-Integral-Derivative) controller** that regulates LED brightness using only op-amp circuits, passive components, and a BJT output driver. No microcontroller, no software, no digital processing. The system senses LED current, computes the error against a setpoint, and drives a corrective output through three parallel analog compensation paths (P, I, D) summed into a single control signal.
 
 Designed as an independent project to physically realize classical control theory in hardware, where gain is set by resistor ratios, time constants by RC products, and stability by circuit topology.
 
@@ -41,11 +41,11 @@ V_curr ─┘  │  (TL082)   │ │  │  Integral   │  │  │  Inverting 
 2. **Current Sense (V_curr):** The LED forward voltage is measured directly as a proxy for LED current
 3. **Error Computation:** A TL082 difference amplifier computes `e(t) = V_set − V_curr`
 4. **PID Compensation:** The error signal is routed in parallel to three TL084-based op-amp stages:
-   - **P stage** — Resistor-ratio gain provides immediate proportional correction
-   - **I stage** — Op-amp integrator (RC time constant) accumulates past error to eliminate steady-state offset
-   - **D stage** — Op-amp differentiator (RC time constant) responds to rate-of-change to reduce overshoot
+   - **P stage** - Resistor-ratio gain provides immediate proportional correction
+   - **I stage** - Op-amp integrator (RC time constant) accumulates past error to eliminate steady-state offset
+   - **D stage** - Op-amp differentiator (RC time constant) responds to rate-of-change to reduce overshoot
 5. **Summation:** A TL084 summing inverting amplifier combines the P, I, and D outputs into a single control voltage
-6. **Output Driver:** A 2N3904 NPN BJT in emitter-follower configuration converts the low-power control signal into a current drive capable of sourcing 20–40 mA to the LED
+6. **Output Driver:** A 2N3904 NPN BJT in emitter-follower configuration converts the low-power control signal into a current drive capable of sourcing 20-40 mA to the LED
 7. **Feedback:** The resulting LED voltage feeds back to the difference amplifier, closing the loop
 
 ## Circuit Design
@@ -67,8 +67,8 @@ V_curr ─┘  │  (TL082)   │ │  │  Integral   │  │  │  Inverting 
 | Capacitor | 220 nF | 1 | PID compensation |
 | Capacitor | 2.7 nF | 1 | Differentiator time constant |
 | Capacitor | 10 µF | 1 | Power supply bypass |
-| LEDs | — | 2 | Controlled output LED + indicator |
-| Test Points | — | 17 | Probing at every stage of the signal path |
+| LEDs | - | 2 | Controlled output LED + indicator |
+| Test Points | - | 17 | Probing at every stage of the signal path |
 
 ### Op-Amp Stage Details
 
@@ -89,8 +89,8 @@ Combines the P, I, and D outputs through input resistors into a single inverted 
 
 ### Output Driver
 
-A **2N3904 NPN transistor** in emitter-follower (common-collector) configuration provides current gain to drive the LED at 20–40 mA. The emitter-follower topology offers:
-- Near-unity voltage gain with high current gain (β ≈ 100–300)
+A **2N3904 NPN transistor** in emitter-follower (common-collector) configuration provides current gain to drive the LED at 20-40 mA. The emitter-follower topology offers:
+- Near-unity voltage gain with high current gain (β ≈ 100-300)
 - Low output impedance for stable LED drive
 - Voltage-controlled current source (VCCS) behavior through the feedback loop
 
@@ -138,7 +138,7 @@ The controller is validated using standard bench equipment:
 | Steady-State Error | Residual offset after settling (should approach zero with I-stage) |
 | Stability | Absence of sustained oscillation under varying gain settings |
 
-All measurements are taken directly from hardware — not simulation alone.
+All measurements are taken directly from hardware - not simulation alone.
 
 ## Project Structure
 
@@ -164,9 +164,9 @@ Analog-PID-Controller/
 
 ## Authors
 
-**Devansh Joshi** — [GitHub](https://github.com/DJdaGOAT1)
+**Devansh Joshi** - [GitHub](https://github.com/DJdaGOAT1)
 
-**Suren Shirani** — [GitHub](https://github.com/ssWaterFlowing)
+**Suren Shirani** - [GitHub](https://github.com/ssWaterFlowing)
 
 ## License
 
